@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:82b58cbe23607914af72aaee13b7d9c3$ -->
+<TextureAtlas imagePath="effects.png">
+    <SubTexture name="Hearts_01_64x64_016" x="2" y="68" width="64" height="64"/>
+    <SubTexture name="Hearts_01_64x64_017" x="134" y="2" width="64" height="56" frameX="0" frameY="-4" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="Hearts_01_64x64_018" x="68" y="60" width="64" height="48" frameX="0" frameY="-8" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="Hearts_01_64x64_019" x="2" y="2" width="64" height="64"/>
+    <SubTexture name="expl_1" x="132" y="118" width="56" height="52" frameX="-4" frameY="-6" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_10" x="68" y="168" width="46" height="44" frameX="-9" frameY="-10" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_11" x="190" y="156" width="44" height="42" frameX="-10" frameY="-11" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_12" x="68" y="214" width="40" height="38" frameX="-12" frameY="-13" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_13" x="110" y="214" width="32" height="34" frameX="-16" frameY="-15" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_14" x="116" y="172" width="20" height="32" frameX="-22" frameY="-16" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_15" x="236" y="156" width="18" height="18" frameX="-23" frameY="-23" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_16" x="190" y="118" width="4" height="4" frameX="-30" frameY="-30" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_2" x="68" y="110" width="62" height="56" frameX="-1" frameY="-4" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_3" x="2" y="134" width="64" height="60" frameX="0" frameY="-2" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_4" x="2" y="196" width="64" height="58" frameX="0" frameY="-3" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_5" x="68" y="2" width="64" height="56" frameX="0" frameY="-4" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_6" x="134" y="60" width="62" height="56" frameX="-1" frameY="-4" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_7" x="198" y="100" width="56" height="54" frameX="-4" frameY="-5" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_8" x="200" y="2" width="52" height="48" frameX="-6" frameY="-8" frameWidth="64" frameHeight="64"/>
+    <SubTexture name="expl_9" x="200" y="52" width="50" height="46" frameX="-7" frameY="-9" frameWidth="64" frameHeight="64"/>
+</TextureAtlas>
