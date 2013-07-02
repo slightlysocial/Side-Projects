@@ -1,0 +1,4 @@
+/Volumes/Drive/Personal_Projects/Goftware_iPhone/Classes/Engine/Utility/MathUtility.h:14: warning: '_mathUtility' defined but not used
+/Volumes/Drive/Personal_Projects/Goftware_iPhone/Classes/Engine/Utility/LogUtility.h:15: warning: '_logUtility' defined but not used
+/Volumes/Drive/Personal_Projects/Goftware_iPhone/Classes/Engine/Utility/DateTimeUtility.h:17: warning: '_dateTimeUtility' defined but not used
+/Volumes/Drive/Personal_Projects/Goftware_iPhone/Classes/Engine/Utility/GraphicsUtility.h:21: warning: '_graphicsUtility' defined but not used

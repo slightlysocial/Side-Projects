@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fonty version="1.0">
+<font name="" image="font_digits.png" size="15" intercharacterspace="1" interwordspace="2" interlinespace="4">
+<char character=":" x="0" y="0" width="8" height="19"/>
+<char character="/" x="8" y="0" width="13" height="19"/>
+<char character="0" x="21" y="0" width="23" height="19"/>
+<char character="1" x="44" y="0" width="13" height="19"/>
+<char character="2" x="57" y="0" width="23" height="19"/>
+<char character="3" x="80" y="0" width="23" height="19"/>
+<char character="4" x="103" y="0" width="23" height="19"/>
+<char character="5" x="126" y="0" width="23" height="19"/>
+<char character="6" x="149" y="0" width="23" height="19"/>
+<char character="7" x="172" y="0" width="23" height="19"/>
+<char character="8" x="195" y="0" width="23" height="19"/>
+<char character="9" x="218" y="0" width="23" height="19"/>
+</font>
+</fonty>
