@@ -1,0 +1,51 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CameraScript.cs">
+    <Files>
+      <File FileName="../../../../GangnamSnake/Assets/Scripts/Button.cs" Line="31" Column="23" />
+      <File FileName="../../../../GangnamPoke/Assets/PenguinScript.cs" Line="8" Column="34" />
+      <File FileName="../../../../LondonCityWater/Assets/GUIScript.cs" Line="16" Column="2" />
+      <File FileName="../../../../GangnamPoke/Assets/GameLogic.cs" Line="132" Column="24" />
+      <File FileName="Assets/Standard Assets (Mobile)/Shaders/Vertex Colored Shaders/Mobile Transparent Vertex Color.shader" Line="1" Column="1" />
+      <File FileName="Assets/ButtonObject.cs" Line="18" Column="2" />
+      <File FileName="Assets/Hero.cs" Line="208" Column="3" />
+      <File FileName="Assets/GameManager.cs" Line="115" Column="5" />
+      <File FileName="Assets/FollowCamera.cs" Line="12" Column="36" />
+      <File FileName="Assets/CameraScript.cs" Line="8" Column="34" />
+      <File FileName="Assets/GameScene/Segment.cs" Line="15" Column="57" />
+      <File FileName="Assets/GameScene/SegmentGenerator.cs" Line="21" Column="22" />
+      <File FileName="Assets/GameScene/Item.cs" Line="155" Column="36" />
+      <File FileName="Assets/Enemy.cs" Line="47" Column="2" />
+      <File FileName="Assets/MainMenuScene/MainMenuManager.cs" Line="35" Column="6" />
+      <File FileName="Assets/GameScene/GameMenuManager.cs" Line="21" Column="1" />
+      <File FileName="Assets/ObjectPool.cs" Line="91" Column="1" />
+      <File FileName="Assets/ObjectiveManager.cs" Line="23" Column="2" />
+      <File FileName="Assets/FaceCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/AutoScaleBG.cs" Line="15" Column="54" />
+      <File FileName="Assets/CloudScript.cs" Line="49" Column="3" />
+      <File FileName="Assets/EnemyGenerator.cs" Line="48" Column="4" />
+      <File FileName="Assets/SwipeControl.cs" Line="6" Column="2" />
+      <File FileName="Assets/ShopManager.cs" Line="30" Column="5" />
+      <File FileName="Assets/PlaneSelectionManager.cs" Line="85" Column="8" />
+      <File FileName="Assets/PlaneChooserItem.cs" Line="12" Column="3" />
+      <File FileName="Assets/SSAdManagement/SSAdManager.cs" Line="155" Column="3" />
+      <File FileName="Assets/WorldSphere.cs" Line="15" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="MainMenuScene" expanded="True" />
+              <Node name="CameraScript.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

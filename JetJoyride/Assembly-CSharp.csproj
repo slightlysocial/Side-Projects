@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E3DD2429-9036-F8C3-BF7F-870EE776356D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;UNITY_IPHONE_API;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_GENERICS;ENABLE_CLOTH;UNITY_IOS;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_0_0;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AutoScaleBG.cs" />
+     <Compile Include="Assets\ButtonObject.cs" />
+     <Compile Include="Assets\CameraScript.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX2_Demo.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX2_AutoRotate.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\CloudScript.cs" />
+     <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\EnemyGenerator.cs" />
+     <Compile Include="Assets\FaceCamera.cs" />
+     <Compile Include="Assets\FollowCamera.cs" />
+     <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\GameScene\GameMenuManager.cs" />
+     <Compile Include="Assets\GameScene\Item.cs" />
+     <Compile Include="Assets\GameScene\ScorePopup.cs" />
+     <Compile Include="Assets\GameScene\Segment.cs" />
+     <Compile Include="Assets\GameScene\SegmentGenerator.cs" />
+     <Compile Include="Assets\Hero.cs" />
+     <Compile Include="Assets\MainMenuScene\MainMenuManager.cs" />
+     <Compile Include="Assets\ObjectPool.cs" />
+     <Compile Include="Assets\ObjectiveManager.cs" />
+     <Compile Include="Assets\PlaneChooserItem.cs" />
+     <Compile Include="Assets\PlaneSelectionManager.cs" />
+     <Compile Include="Assets\PushNotificationsIOS.cs" />
+     <Compile Include="Assets\RageSpline\Code\IRageSpline.cs" />
+     <Compile Include="Assets\RageSpline\Code\IRageTriangulator.cs" />
+     <Compile Include="Assets\RageSpline\Code\RageCurve.cs" />
+     <Compile Include="Assets\RageSpline\Code\RageSpline.cs" />
+     <Compile Include="Assets\RageSpline\Code\RageSplineStyle.cs" />
+     <Compile Include="Assets\RageSpline\Code\RageTriangulator.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\CameraFollow2.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\ParallaxMovement.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\ProceduralLandscape.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\Prop.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\PropHandler.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\RageDude.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\Rolling.cs" />
+     <Compile Include="Assets\RageSpline\Example Game - Uphill Rage\Scripts\ScoreCounter.cs" />
+     <Compile Include="Assets\RageSpline\RageSpline API Examples\AdvancedShake\AdvancedShake.cs" />
+     <Compile Include="Assets\RageSpline\RageSpline API Examples\Shake\Shake.cs" />
+     <Compile Include="Assets\RageSpline\RageSpline API Examples\SimpleRuntimeEditor\SimpleRuntimeEditor.cs" />
+     <Compile Include="Assets\RageSpline\Template - Physics Game\ExplotionAtMouseclick.cs" />
+     <Compile Include="Assets\RageSpline\Template - Top-down Game\Drifter.cs" />
+     <Compile Include="Assets\RageSpline\Template - Top-down Game\FollowTheMouse.cs" />
+     <Compile Include="Assets\SSAdManagement\PListManager.cs" />
+     <Compile Include="Assets\SSAdManagement\SSAdManager.cs" />
+     <Compile Include="Assets\ShopManager.cs" />
+     <Compile Include="Assets\SwipeControl.cs" />
+     <Compile Include="Assets\WorldSphere.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\RageSpline\Code\RageSplineDouble.shader" />
+     <None Include="Assets\RageSpline\Code\RageSplineTexturedDouble.shader" />
+     <None Include="Assets\RageSpline\Code\RageSplineTextured.shader" />
+     <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\RageSpline\Code\RageSplineTexturedAlphaShader.shader" />
+     <None Include="Assets\RageSpline\readme.txt" />
+     <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Pushwoosh\Info.xml" />
+     <None Include="Assets\RageSpline\Code\RageSpline.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\RageSpline\Code\RageSplineMultitextured.shader" />
+     <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\ToonAirplanePack\Readme.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\RageSpline\Code\RageSplineTextureAlphaTP.shader" />
+ <Reference Include="Assets\Plugins\Prime31\P31RestKit">
+ <HintPath>Assets\Plugins\Prime31\P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7023C65C-3FB4-6E1E-615C-079A3F4FF8EC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{2EA992B1-B026-2261-3BAD-69F9988A6C7A}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
